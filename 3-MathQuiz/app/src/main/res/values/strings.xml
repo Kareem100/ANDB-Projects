@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MathQuiz</string>
+    <font name="standard_font"></font>
+</resources>

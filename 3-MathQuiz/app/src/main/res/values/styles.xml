@@ -1,0 +1,50 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorFont</item>
+    </style>
+
+    <style name="questionAnswerBlockStyle">
+        <item name="android:layout_width">@dimen/layoutWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/QueQue_spacing</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/transparent_rounded_corners</item>
+        <item name="android:padding">@dimen/view_draft_spacing</item>
+    </style>
+
+    <style name="questionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/QueAns_spacing</item>
+        <item name="android:background">@color/colorShadedQuestion</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorFont</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+    <style name="answerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/answerHeight</item>
+        <item name="android:layout_marginBottom">@dimen/QueAns_spacing</item>
+        <item name="android:background">@color/colorShadedAnswer</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorFont2</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:maxLength">5</item>
+        <item name="android:hint">Answer Here...</item>
+    </style>
+
+    <style name="radioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorFont2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textSize</item>
+    </style>
+
+
+</resources>

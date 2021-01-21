@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_draft_spacing"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/questionAnswerBlockStyle"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques_1"
+                style="@style/questionStyle"
+                android:fontFamily="@font/comicz"
+                android:text="Q1)" />
+
+            <EditText
+                android:id="@+id/ans_1"
+                style="@style/answerStyle"
+                android:fontFamily="@font/comicz" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionAnswerBlockStyle"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques_2"
+                style="@style/questionStyle"
+                android:fontFamily="@font/comicz"
+                android:text="Q2)" />
+
+            <EditText
+                android:id="@+id/ans_2"
+                style="@style/answerStyle"
+                android:fontFamily="@font/comicz" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionAnswerBlockStyle"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques_3"
+                style="@style/questionStyle"
+                android:fontFamily="@font/comicz"
+                android:text="Q3)" />
+
+            <EditText
+                android:id="@+id/ans_3"
+                style="@style/answerStyle"
+                android:fontFamily="@font/comicz" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/radiobutton_layout"
+            style="@style/questionAnswerBlockStyle"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ques_4"
+                    style="@style/questionStyle"
+                    android:fontFamily="@font/comicz"
+                    android:text="Q4)" />
+
+                <RadioGroup
+                    android:id="@+id/left_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorShadedAnswer">
+
+                    <RadioButton
+                        android:id="@+id/ans_4_radio_1"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Radio 1" />
+
+                    <RadioButton
+                        android:id="@+id/ans_4_radio_2"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Radio 2" />
+
+                    <RadioButton
+                        android:id="@+id/ans_4_radio_3"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Radio 3" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ques_5"
+                    style="@style/questionStyle"
+                    android:fontFamily="@font/comicz"
+                    android:text="Q5)" />
+
+                <RadioGroup
+                    android:id="@+id/right_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorShadedAnswer">
+
+                    <RadioButton
+                        android:id="@+id/ans_5_radio_1"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Radio 1" />
+
+                    <RadioButton
+                        android:id="@+id/ans_5_radio_2"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Radio 2" />
+
+                    <RadioButton
+                        android:id="@+id/ans_5_radio_3"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Radio 3" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checkbox_layout"
+            style="@style/questionAnswerBlockStyle"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ques_6"
+                    style="@style/questionStyle"
+                    android:fontFamily="@font/comicz"
+                    android:text="Q6)" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorShadedAnswer"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ans_6_box_1"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Checkbox 1" />
+
+                    <CheckBox
+                        android:id="@+id/ans_6_box_2"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Checkbox 2" />
+
+                    <CheckBox
+                        android:id="@+id/ans_6_box_3"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Checkbox 3" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ques_7"
+                    style="@style/questionStyle"
+                    android:fontFamily="@font/comicz"
+                    android:text="Q7)" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorShadedAnswer"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/ans_7_box_1"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Checkbox 1" />
+
+                    <CheckBox
+                        android:id="@+id/ans_7_box_2"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Checkbox 2" />
+
+                    <CheckBox
+                        android:id="@+id/ans_7_box_3"
+                        style="@style/radioButtonStyle"
+                        android:fontFamily="@font/comicz"
+                        android:hint="Checkbox 3" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/questionAnswerBlockStyle"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ques_8"
+                style="@style/questionStyle"
+                android:fontFamily="@font/comicz"
+                android:text="Q8)" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/imageDimensions"
+                android:layout_height="@dimen/imageDimensions"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/QueAns_spacing"
+                android:src="@drawable/image_q3" />
+
+            <EditText
+                android:id="@+id/ans_8"
+                style="@style/answerStyle"
+                android:fontFamily="@font/comicz" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ripple_effect_raised"
+                android:padding="@dimen/view_draft_spacing"
+                android:text="Submit Answers"
+                android:textColor="@color/colorFont"
+                android:textSize="@dimen/textSize" />
+
+            <Button
+                android:id="@+id/reset_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_effect_raised"
+                android:padding="@dimen/view_draft_spacing"
+                android:text="Another Quiz"
+                android:textColor="@color/colorFont2"
+                android:textSize="@dimen/textSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00a03e</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorFont">#FFA000</color>
+    <color name="colorFont2">#EFEFEF</color>
+    <color name="colorShadedBackground">#BB000000</color>
+    <color name="colorShadedQuestion">#0000796B</color>
+    <color name="colorShadedAnswer">#AA4a7246</color>
+</resources>

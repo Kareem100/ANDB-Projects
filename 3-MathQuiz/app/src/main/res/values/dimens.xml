@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="layoutWidth">336dp</dimen>
+    <dimen name="questionHeight">50dp</dimen>
+    <dimen name="answerHeight">40dp</dimen>
+    <dimen name="imageDimensions">200dp</dimen>
+    <dimen name="view_draft_spacing">12dp</dimen>
+    <dimen name="QueAns_spacing">12dp</dimen>
+    <dimen name="QueQue_spacing">18dp</dimen>
+</resources>
