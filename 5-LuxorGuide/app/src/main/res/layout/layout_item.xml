@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/items_spacing">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/item_corner_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/background_theme_2">
+
+            <ImageView
+                android:id="@+id/image_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/temple_luxor" />
+
+            <TextView
+                android:id="@+id/text_title_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image_item"
+                android:background="@color/purple"
+                android:paddingLeft="@dimen/general_small_spacing"
+                android:text="@string/luxor_temple"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/header_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_info_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_title_item"
+                android:layout_marginLeft="@dimen/general_small_spacing"
+                android:layout_toRightOf="@id/image_item"
+                android:maxLines="6"
+                android:text="@string/saha_restaurant_info"
+                android:theme="@style/background_theme_2" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

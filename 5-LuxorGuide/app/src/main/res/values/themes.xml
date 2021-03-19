@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LuxorGuide" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:fontFamily">@font/comicz</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <!-- Recycler view background color. -->
+    <style name="background_theme_1">
+        <item name="android:background">@color/silver</item>
+    </style>
+    <!-- Card view background color. -->
+    <style name="background_theme_2">
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

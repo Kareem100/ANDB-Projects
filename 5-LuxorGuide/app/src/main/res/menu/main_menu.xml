@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/temples"
+            android:title="@string/temples"
+            android:icon="@drawable/ic_temples"/>
+        <item
+            android:id="@+id/museums"
+            android:title="@string/museums"
+            android:icon="@drawable/ic_museums"/>
+        <item
+            android:id="@+id/valleys"
+            android:title="@string/valleys"
+            android:icon="@drawable/ic_valleys"/>
+        <item
+            android:id="@+id/restaurants"
+            android:title="@string/restaurants"
+            android:icon="@drawable/ic_restaurants"/>
+        <item
+            android:id="@+id/entertainment"
+            android:title="@string/entertainment"
+            android:icon="@drawable/ic_entertainments"/>
+    </group>
+
+</menu>

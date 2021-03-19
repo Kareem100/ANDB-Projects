@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawer_header_height">240dp</dimen>
+    <dimen name="default_text_size">15sp</dimen>
+    <dimen name="header_text_size">18sp</dimen>
+    <dimen name="items_spacing">20dp</dimen>
+    <dimen name="item_corner_radius">20dp</dimen>
+    <dimen name="general_small_spacing">8dp</dimen>
+</resources>
