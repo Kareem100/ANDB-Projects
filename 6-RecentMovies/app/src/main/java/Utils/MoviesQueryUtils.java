@@ -23,6 +23,7 @@ public final class MoviesQueryUtils {
     private static final String LOG_TAG = MoviesQueryUtils.class.getName();
     private static final int CONNECTION_TIMEOUT = 15000;
     private static final int SUCCESS_RESPONSE_CODE = 200;
+    private static final String NO_AUTHOR_TEXT = "No Author !";
 
     public static ArrayList<Movie> fetchMovies(String queryLink) {
         URL queryUrl = createUrl(queryLink);
@@ -105,12 +106,14 @@ public final class MoviesQueryUtils {
                 String poster = movieFields.getString("thumbnail");
                 String section = moviesResults.getJSONObject(i).getString("sectionName");
                 String author = contributorTags.getJSONObject(0).getString("webTitle");
+                // check if no author exists.
+                if (ObjectUtils.notValidObject(author)) author = NO_AUTHOR_TEXT;
                 movieArrayList.add(new Movie(title, section, author, rate, poster, reviewLink));
             }
         } catch (JSONException e) {
             Log.e(LOG_TAG,
                     "MoviesQueryUtils.extractMovies: " +
-                            "Error Parsing The Earthquake JSON Results", e);
+                            "Error Parsing The Movies JSON Results", e);
         }
         return movieArrayList;
     }

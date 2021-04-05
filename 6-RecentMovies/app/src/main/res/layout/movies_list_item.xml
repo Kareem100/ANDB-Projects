@@ -18,7 +18,7 @@
             android:layout_width="@dimen/poster_width"
             android:layout_height="@dimen/poster_height"
             android:scaleType="fitXY"
-            android:src="@drawable/joker_poster" />
+            tools:src="@drawable/joker_poster" />
 
         <TextView
             android:id="@+id/title_text_view"
@@ -28,7 +28,8 @@
             android:layout_marginTop="@dimen/spacing_small"
             android:gravity="center"
             android:textAllCaps="true"
-            android:textColor="@color/white"
+            android:maxLines="2"
+            android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_large"
             tools:text="Joker" />
 
@@ -49,7 +50,6 @@
                 android:id="@+id/rate_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/comicz"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/text_size_medium"
                 tools:text="4.8" />
@@ -78,7 +78,7 @@
                 android:layout_marginTop="@dimen/spacing_small"
                 android:lines="1"
                 android:text="@string/read_the_review"
-                android:textColor="@color/white"
+                android:textColor="@android:color/white"
                 android:textSize="@dimen/text_size_small" />
 
             <TextView

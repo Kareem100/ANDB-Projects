@@ -3,4 +3,9 @@
     <string name="read_the_review">Read the review by</string>
     <string name="empty_data_state_text">There is no data to show.</string>
     <string name="no_network_state_text">There is no internet connection.</string>
+    <string name="filter_movies_tag">film/film,tone/reviews</string>
+    <string name="filter_from_date">2021-01-01</string>
+    <string name="filter_show_tags">contributor</string>
+    <string name="filter_show_fields">starRating,headline,thumbnail,short-url</string>
+    <string name="filter_order_by">newest</string>
 </resources>

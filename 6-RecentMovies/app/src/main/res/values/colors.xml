@@ -5,6 +5,4 @@
     <color name="colorBackground">#1C1E24</color>
     <color name="colorBackground2">#0f0f0f</color>
     <color name="colorPlaceholder">#a39e9e</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
 </resources>
