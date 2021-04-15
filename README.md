@@ -17,6 +17,7 @@ It took me 8 months practising and the entertainment to complete the six. </br>
 - Managing strings, dimens, colors, layouts xml Files
 - Control Flow
 - OOP Concepts
+- Locales Translation
 - RecyclerView and Activity Lifecycle
 - UI Design
 - MediaPlayers
